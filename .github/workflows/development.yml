@@ -1,0 +1,12 @@
+on:
+  push:
+    branches:
+
+jobs:
+  phpunit:
+    uses: shopware/github-actions/.github/workflows/phpunit.yml@main
+    with:
+      # Extension Name
+      extensionName: AsamFieldPlugin
+      # Run against Shopware version
+      shopwareVersion: 6.5.x

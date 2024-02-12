@@ -1,0 +1,5 @@
+!.gitignore
+/composer.lock
+!composer.json
+!phpunit.xml
+!README.md

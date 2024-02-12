@@ -1,0 +1,41 @@
+{
+    "name": "dantweb/asam_sw6",
+    "description": "Test plugin for Asam",
+    "type": "shopware-platform-plugin",
+    "version": "1.0.0",
+    "license": "MIT",
+    "require": {
+        "shopware/core": "6.5.*",
+        "symfony/http-client": "*",
+        "phpunit/phpunit": "*"
+    },
+    "extra": {
+        "shopware-plugin-class": "AsamFieldPlugin\\AsamFieldPlugin",
+        "label": {
+            "de-DE": "Asam Custom Field Plugin Test",
+            "en-GB": "Asam Custom Field Plugin Test"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "AsamFieldPlugin\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AsamFieldPlugin\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "symfony/runtime": true
+        }
+    },
+    "repositories": {
+        "dantweb": {
+            "type": "vcs",
+            "url": "https://github.com/dantweb/asam_sw6"
+        }
+    },
+    "minimum-stability": "dev"
+}
