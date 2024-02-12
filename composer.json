@@ -29,12 +29,5 @@
         "allow-plugins": {
             "symfony/runtime": true
         }
-    },
-    "repositories": {
-        "dantweb": {
-            "type": "vcs",
-            "url": "https://github.com/ottobusenbach/asam-s6"
-        }
-    },
-    "minimum-stability": "dev"
+    }
 }
