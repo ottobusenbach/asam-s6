@@ -1,13 +1,12 @@
 {
-    "name": "dantweb/asam_sw6",
+    "name": "ottobusenbach/asam-s6",
     "description": "Test plugin for Asam",
     "type": "shopware-platform-plugin",
     "version": "1.0.0",
     "license": "MIT",
     "require": {
         "shopware/core": "6.5.*",
-        "symfony/http-client": "*",
-        "phpunit/phpunit": "*"
+        "symfony/http-client": "*"
     },
     "extra": {
         "shopware-plugin-class": "AsamFieldPlugin\\AsamFieldPlugin",
@@ -34,7 +33,7 @@
     "repositories": {
         "dantweb": {
             "type": "vcs",
-            "url": "https://github.com/dantweb/asam_sw6"
+            "url": "https://github.com/ottobusenbach/asam-s6"
         }
     },
     "minimum-stability": "dev"
